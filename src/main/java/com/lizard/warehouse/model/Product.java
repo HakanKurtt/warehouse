@@ -8,6 +8,9 @@ public class Product {
     private String name;
     private String description;
     private BigDecimal salePrice;
+    private BigDecimal netPrice;
+    private BigDecimal labourCost;
+    private double vatAmount;
 
     private List<Material> components;
 }
